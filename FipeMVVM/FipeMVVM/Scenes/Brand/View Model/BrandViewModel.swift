@@ -9,11 +9,29 @@ import UIKit
 
 class BrandViewModel{
     
-    var arrayBrand = [Brand]()
+    var apiManager = ApiManager()
     
-    func setArrayCount() -> Int{
-        return arrayBrand.count
+    var arrayBrand = [BaseClassAPI]()
+    
+    func getBrand (onComplete: @escaping (Bool) -> Void)
+    {
+        apiManager.loadData(path: "carros/marcas") { sucess in
+            self.arrayBrand = self.apiManager.arrayDate
+            onComplete(true)
+            return
+        }
+        
+        onComplete(false)
+        return
     }
     
+    func getArrayBrand() -> [BaseClassAPI]{
+        return arrayBrand
+    }
+    
+    func getNameBrand(index: Int) -> String{
+        
+        return arrayBrand[index].name
+    }
     
 }
