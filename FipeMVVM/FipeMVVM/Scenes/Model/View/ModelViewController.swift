@@ -26,13 +26,15 @@ class ModelViewController: UIViewController {
 }
 
 extension ModelViewController: UITableViewDelegate{
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        if let screenAddMovie = UIStoryboard(name: "Model", bundle: nil).instantiateInitialViewController() as? ModelViewController{
-//
-//                    navigationController?.pushViewController(screenAddMovie, animated: true)
-//
-//                }
-//    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let screenAddMovie = UIStoryboard(name: "YearModel", bundle: nil).instantiateInitialViewController() as? YearModelViewController{
+
+                    navigationController?.pushViewController(screenAddMovie, animated: true)
+            YearModelViewModel.idBrand = ModelViewModel.id
+            YearModelViewModel.idModel = viewModel.getIdModel(index: indexPath.row)
+
+                }
+    }
 }
 
 extension ModelViewController: UITableViewDataSource{

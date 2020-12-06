@@ -10,6 +10,9 @@
 		D053F468257C671A00D32326 /* Model.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D053F467257C671A00D32326 /* Model.storyboard */; };
 		D053F46C257C677400D32326 /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053F46B257C677400D32326 /* ModelViewController.swift */; };
 		D053F470257C678C00D32326 /* ModelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053F46F257C678C00D32326 /* ModelViewModel.swift */; };
+		D053F481257C80D100D32326 /* YearModel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D053F480257C80D100D32326 /* YearModel.storyboard */; };
+		D053F484257C80E300D32326 /* YearModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053F483257C80E300D32326 /* YearModelViewController.swift */; };
+		D053F487257C810800D32326 /* YearModelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053F486257C810800D32326 /* YearModelViewModel.swift */; };
 		D0DDED2B25753F2A00EBBE56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDED2A25753F2A00EBBE56 /* AppDelegate.swift */; };
 		D0DDED2D25753F2A00EBBE56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDED2C25753F2A00EBBE56 /* SceneDelegate.swift */; };
 		D0DDED2F25753F2A00EBBE56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDED2E25753F2A00EBBE56 /* ViewController.swift */; };
@@ -17,7 +20,6 @@
 		D0DDED3425753F2E00EBBE56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DDED3325753F2E00EBBE56 /* Assets.xcassets */; };
 		D0DDED3725753F2E00EBBE56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DDED3525753F2E00EBBE56 /* LaunchScreen.storyboard */; };
 		D0DDED4825756D1000EBBE56 /* BaseClassAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDED4725756D1000EBBE56 /* BaseClassAPI.swift */; };
-		D0DDED4C25756D5500EBBE56 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDED4B25756D5500EBBE56 /* Brand.swift */; };
 		D0DDED4F2575C36A00EBBE56 /* BrandTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDED4E2575C36A00EBBE56 /* BrandTableViewCell.swift */; };
 		D0DDED532575C54D00EBBE56 /* BrandViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDED522575C54D00EBBE56 /* BrandViewModel.swift */; };
 		D0DDED572575C74100EBBE56 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDED562575C74100EBBE56 /* ApiManager.swift */; };
@@ -31,6 +33,9 @@
 		D053F467257C671A00D32326 /* Model.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Model.storyboard; sourceTree = "<group>"; };
 		D053F46B257C677400D32326 /* ModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
 		D053F46F257C678C00D32326 /* ModelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewModel.swift; sourceTree = "<group>"; };
+		D053F480257C80D100D32326 /* YearModel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = YearModel.storyboard; sourceTree = "<group>"; };
+		D053F483257C80E300D32326 /* YearModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearModelViewController.swift; sourceTree = "<group>"; };
+		D053F486257C810800D32326 /* YearModelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearModelViewModel.swift; sourceTree = "<group>"; };
 		D0DDED2725753F2A00EBBE56 /* FipeMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FipeMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DDED2A25753F2A00EBBE56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0DDED2C25753F2A00EBBE56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +45,6 @@
 		D0DDED3625753F2E00EBBE56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0DDED3825753F2E00EBBE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0DDED4725756D1000EBBE56 /* BaseClassAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClassAPI.swift; sourceTree = "<group>"; };
-		D0DDED4B25756D5500EBBE56 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
 		D0DDED4E2575C36A00EBBE56 /* BrandTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandTableViewCell.swift; sourceTree = "<group>"; };
 		D0DDED522575C54D00EBBE56 /* BrandViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandViewModel.swift; sourceTree = "<group>"; };
 		D0DDED562575C74100EBBE56 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
@@ -73,6 +77,39 @@
 				5A936C2EE6CC0CC6B66BA2BB /* Pods-FipeMVVM.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D053F47D257C80AA00D32326 /* YearModel */ = {
+			isa = PBXGroup;
+			children = (
+				D053F47F257C80BE00D32326 /* ViewModel */,
+				D053F47E257C80B700D32326 /* View */,
+			);
+			path = YearModel;
+			sourceTree = "<group>";
+		};
+		D053F47E257C80B700D32326 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D053F480257C80D100D32326 /* YearModel.storyboard */,
+				D053F483257C80E300D32326 /* YearModelViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D053F47F257C80BE00D32326 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D053F486257C810800D32326 /* YearModelViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D053F48A257C827F00D32326 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		D0925631257B43E9005621A8 /* Model */ = {
@@ -133,14 +170,6 @@
 			path = FipeMVVM;
 			sourceTree = "<group>";
 		};
-		D0DDED4025756BA300EBBE56 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D0DDED4B25756D5500EBBE56 /* Brand.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		D0DDED4125756BB300EBBE56 /* View Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,8 +192,10 @@
 		D0DDED4325756C0800EBBE56 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				D0925631257B43E9005621A8 /* Model */,
+				D053F48A257C827F00D32326 /* Detail */,
 				D0DDED4425756C3400EBBE56 /* Brand */,
+				D0925631257B43E9005621A8 /* Model */,
+				D053F47D257C80AA00D32326 /* YearModel */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -172,7 +203,6 @@
 		D0DDED4425756C3400EBBE56 /* Brand */ = {
 			isa = PBXGroup;
 			children = (
-				D0DDED4025756BA300EBBE56 /* Model */,
 				D0DDED4225756BEA00EBBE56 /* View */,
 				D0DDED4125756BB300EBBE56 /* View Model */,
 			);
@@ -255,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D053F468257C671A00D32326 /* Model.storyboard in Resources */,
+				D053F481257C80D100D32326 /* YearModel.storyboard in Resources */,
 				D0DDED3725753F2E00EBBE56 /* LaunchScreen.storyboard in Resources */,
 				D0DDED3425753F2E00EBBE56 /* Assets.xcassets in Resources */,
 				D0DDED3225753F2A00EBBE56 /* Brand.storyboard in Resources */,
@@ -315,10 +346,11 @@
 				D0DDED4825756D1000EBBE56 /* BaseClassAPI.swift in Sources */,
 				D053F46C257C677400D32326 /* ModelViewController.swift in Sources */,
 				D0DDED4F2575C36A00EBBE56 /* BrandTableViewCell.swift in Sources */,
+				D053F487257C810800D32326 /* YearModelViewModel.swift in Sources */,
 				D0DDED2F25753F2A00EBBE56 /* ViewController.swift in Sources */,
+				D053F484257C80E300D32326 /* YearModelViewController.swift in Sources */,
 				D0DDED2B25753F2A00EBBE56 /* AppDelegate.swift in Sources */,
 				D0DDED532575C54D00EBBE56 /* BrandViewModel.swift in Sources */,
-				D0DDED4C25756D5500EBBE56 /* Brand.swift in Sources */,
 				D0DDED2D25753F2A00EBBE56 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

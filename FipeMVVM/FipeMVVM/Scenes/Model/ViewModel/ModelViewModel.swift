@@ -36,4 +36,9 @@ class ModelViewModel{
         return arrayModel[index].name
     }
     
+    func getIdModel(index: Int) -> String{
+        return arrayModel[index].id
+    }
+    
+    
 }
