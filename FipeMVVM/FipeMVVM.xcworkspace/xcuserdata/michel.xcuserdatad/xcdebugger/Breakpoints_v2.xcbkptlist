@@ -7,31 +7,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0550D558-7088-4046-8A48-369C2D49F68A"
+            uuid = "77D9FF4B-DF9F-4BAE-8470-4D032ABDD9AF"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FipeMVVM/APIManager/ApiManager.swift"
+            filePath = "FipeMVVM/Scenes/YearModel/View/YearModelViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "loadData(path:onComplete:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B87C5952-F34D-490C-9905-89A9CC23B2E9"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FipeMVVM/Scenes/Brand/View/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -39,107 +23,79 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "284D0BAB-27B1-4230-8214-4A5373363EC1"
+            uuid = "CB6AA796-50F2-4972-AE54-68D67FE657D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FipeMVVM/Scenes/YearModel/View/YearModelViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A59BCCBA-3C8B-4D85-801C-47CFB415B7B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FipeMVVM/Scenes/YearModel/View/YearModelViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03738BB2-E67A-49E9-BA8F-3543CEBF1E47"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FipeMVVM/Scenes/Brand/View/ViewController.swift"
+            filePath = "FipeMVVM/Scenes/Detail/ViewModel/CarDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "ViewController"
-            landmarkType = "3">
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getCarDetail(onComplete:)"
+            landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "284D0BAB-27B1-4230-8214-4A5373363EC1 - 16df96a02ad59629"
+                  uuid = "03738BB2-E67A-49E9-BA8F-3543CEBF1E47 - 99fece1d4042c1cb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "FipeMVVM.ViewController.arrayBrand.getter : Swift.Array&lt;FipeMVVM.Brand&gt;"
+                  symbolName = "FipeMVVM.CarDetailViewModel.getCarDetail(onComplete: (Swift.Bool) -&gt; ()) -&gt; ()"
                   moduleName = "FipeMVVM"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/michel/FipeMVVM/FipeMVVM/FipeMVVM/Scenes/Brand/View/ViewController.swift"
+                  urlString = "file:///Users/michel/FipeMVVM/FipeMVVM/FipeMVVM/Scenes/Detail/ViewModel/CarDetailViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "122">
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "44">
                </Location>
                <Location
-                  uuid = "284D0BAB-27B1-4230-8214-4A5373363EC1 - c902c77b4f9e41d5"
+                  uuid = "03738BB2-E67A-49E9-BA8F-3543CEBF1E47 - 83843fe6acd8bc49"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "FipeMVVM.ViewController.arrayBrand.setter : Swift.Array&lt;FipeMVVM.Brand&gt;"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in FipeMVVM.CarDetailViewModel.getCarDetail(onComplete: (Swift.Bool) -&gt; ()) -&gt; ()"
                   moduleName = "FipeMVVM"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/michel/FipeMVVM/FipeMVVM/FipeMVVM/Scenes/Brand/View/ViewController.swift"
+                  urlString = "file:///Users/michel/FipeMVVM/FipeMVVM/FipeMVVM/Scenes/Detail/ViewModel/CarDetailViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "148">
-               </Location>
-               <Location
-                  uuid = "284D0BAB-27B1-4230-8214-4A5373363EC1 - 20c500ca652002b3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FipeMVVM.ViewController.arrayBrand.modify : Swift.Array&lt;FipeMVVM.Brand&gt;"
-                  moduleName = "FipeMVVM"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/michel/FipeMVVM/FipeMVVM/FipeMVVM/Scenes/Brand/View/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "18">
-               </Location>
-               <Location
-                  uuid = "284D0BAB-27B1-4230-8214-4A5373363EC1 - 1563750126f09f21"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FipeMVVM.ViewController.arrayBrand.modify : Swift.Array&lt;FipeMVVM.Brand&gt; with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "FipeMVVM"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/michel/FipeMVVM/FipeMVVM/FipeMVVM/Scenes/Brand/View/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  uuid = "284D0BAB-27B1-4230-8214-4A5373363EC1 - 30e458314fa4201"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FipeMVVM.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FipeMVVM.ViewController"
-                  moduleName = "FipeMVVM"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/michel/FipeMVVM/FipeMVVM/FipeMVVM/Scenes/Brand/View/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "464">
-               </Location>
-               <Location
-                  uuid = "284D0BAB-27B1-4230-8214-4A5373363EC1 - 1093304f875c9717"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FipeMVVM.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FipeMVVM.ViewController&gt;"
-                  moduleName = "FipeMVVM"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/michel/FipeMVVM/FipeMVVM/FipeMVVM/Scenes/Brand/View/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "369">
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "49">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -147,32 +103,176 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B446CCDD-7092-4271-BDB1-45EB5A2121B1"
-            shouldBeEnabled = "No"
+            uuid = "E8C14816-899E-44E6-A5B5-CD80F987F68A"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FipeMVVM/Scenes/Brand/View/ViewController.swift"
+            filePath = "FipeMVVM/Scenes/Detail/ViewModel/CarDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getCarDetail(onComplete:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0C042085-57CC-4279-9C4E-D0979F9A64CB"
+            uuid = "6007D501-BBCE-4AD0-9AB8-7142D8969376"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FipeMVVM/Scenes/Detail/ViewModel/CarDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getCarDetail(onComplete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0AAEC4CC-EB3A-4D14-99EB-8A32DC03AB73"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FipeMVVM/Scenes/Brand/View/ViewController.swift"
+            filePath = "FipeMVVM/Scenes/Detail/ViewModel/CarDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "tableView(_:didSelectRowAt:)"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getCarDetail(onComplete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6C92B63-912B-4323-99C9-218E475C933C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FipeMVVM/APIManager/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "loadDataCarDetail(path:onComplete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3222123-B017-49E1-A85B-30B388044258"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FipeMVVM/APIManager/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "loadDataCarDetail(path:onComplete:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C3222123-B017-49E1-A85B-30B388044258 - 8709e686d1411be5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FipeMVVM.ApiManager.loadDataCarDetail(path: Swift.String, onComplete: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "FipeMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michel/FipeMVVM/FipeMVVM/FipeMVVM/APIManager/ApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "C3222123-B017-49E1-A85B-30B388044258 - c19bfe09edf017ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; () in FipeMVVM.ApiManager.loadDataCarDetail(path: Swift.String, onComplete: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "FipeMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michel/FipeMVVM/FipeMVVM/FipeMVVM/APIManager/ApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "149">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D992164-0C44-48E8-8E1D-5BA8085E132D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FipeMVVM/APIManager/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "loadDataCarDetail(path:onComplete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16623DD4-4964-4288-8FC0-2BF5D0C81329"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FipeMVVM/APIManager/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "loadDataCarDetail(path:onComplete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "127DF597-F004-40A4-922D-5FB7981E383F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FipeMVVM/APIManager/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "loadDataCarDetail(path:onComplete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43A9C138-87F6-464F-A845-3E1413022A75"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FipeMVVM/APIManager/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "loadDataCarDetail(path:onComplete:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
