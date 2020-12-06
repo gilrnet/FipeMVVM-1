@@ -28,4 +28,20 @@ class ApiManager{
                 onComplete(false)
             }
         }
+    
+    
+    func loadDataModel(path: String , onComplete: @escaping (Bool) -> Void) {
+            AF.request("\(apiBaseUrl)/\(path)").responseJSON { response in
+                if let json = response.value as? [String: Any], let jsonModels = json["modelos"] as? [[String:Any]] {
+                    var models = [BaseClassAPI]()
+                    for item in jsonModels {
+                        models.append(BaseClassAPI(fromDictionary: item))
+                    }
+                    self.arrayDate = models
+                    onComplete(true)
+                    return
+                }
+                onComplete(false)
+            }
+        }
 }

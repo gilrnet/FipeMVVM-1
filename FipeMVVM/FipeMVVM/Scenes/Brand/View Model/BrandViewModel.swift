@@ -34,4 +34,11 @@ class BrandViewModel{
         return arrayBrand[index].name
     }
     
+    func openScreenModel(storyBoard:String, nameViewController:UIViewController){
+      
+    }
+    
+    func getIdBrand(index: Int) -> String{
+        return arrayBrand[index].id
+    }
 }
