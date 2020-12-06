@@ -28,15 +28,19 @@ class YearModelViewController: UIViewController {
 
 
 extension YearModelViewController: UITableViewDelegate{
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        if let screenAddMovie = UIStoryboard(name: "YearModel", bundle: nil).instantiateInitialViewController() as? YearModelViewController{
-//
-//                    navigationController?.pushViewController(screenAddMovie, animated: true)
-//            YearModelViewModel.idBrand = ModelViewModel.id
-//            YearModelViewModel.idModel = viewModel.getIdModel(index: indexPath.row)
-//
-//                }
-//    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let screenAddMovie = UIStoryboard(name: "CarDetail", bundle: nil).instantiateInitialViewController() as? CarDetailViewController{
+
+                    navigationController?.pushViewController(screenAddMovie, animated: true)
+
+            CarDetailViewModel.idBrand = viewModel.getIdBrand()
+            CarDetailViewModel.idModel = YearModelViewModel.idModel
+            CarDetailViewModel.idCarYear = viewModel.getIdYear(index: indexPath.row)
+            
+            
+
+                }
+    }
 }
 
 extension YearModelViewController: UITableViewDataSource{
