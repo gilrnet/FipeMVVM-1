@@ -32,9 +32,9 @@ extension ViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let screenAddMovie = UIStoryboard(name: "Model", bundle: nil).instantiateInitialViewController() as? ModelViewController{
                     
-                    
+            screenAddMovie.idBrand = viewModel.getIdBrand(index: indexPath.row)
                     navigationController?.pushViewController(screenAddMovie, animated: true)
-            ModelViewModel.id = viewModel.getIdBrand(index: indexPath.row)
+//            ModelViewModel.id = viewModel.getIdBrand(index: indexPath.row)
         
                 }
     }

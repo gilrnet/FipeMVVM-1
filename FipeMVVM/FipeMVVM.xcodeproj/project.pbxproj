@@ -199,6 +199,7 @@
 				D0DDED4525756CDD00EBBE56 /* BaseClass */,
 				D0DDED4325756C0800EBBE56 /* Scenes */,
 				D0DDED2C25753F2A00EBBE56 /* SceneDelegate.swift */,
+				D0DDED2A25753F2A00EBBE56 /* AppDelegate.swift */,
 				D0DDED3325753F2E00EBBE56 /* Assets.xcassets */,
 				D0DDED3525753F2E00EBBE56 /* LaunchScreen.storyboard */,
 				D0DDED3825753F2E00EBBE56 /* Info.plist */,
@@ -209,7 +210,6 @@
 		D0DDED4125756BB300EBBE56 /* View Model */ = {
 			isa = PBXGroup;
 			children = (
-				D0DDED2A25753F2A00EBBE56 /* AppDelegate.swift */,
 				D0DDED522575C54D00EBBE56 /* BrandViewModel.swift */,
 			);
 			path = "View Model";

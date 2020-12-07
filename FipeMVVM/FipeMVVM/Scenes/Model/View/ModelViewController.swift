@@ -10,15 +10,20 @@ import UIKit
 class ModelViewController: UIViewController {
     @IBOutlet weak var tableViewModel: UITableView!
     
-   var viewModel = ModelViewModel()
+    var viewModel = ModelViewModel()
+    
+    var idBrand: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableViewModel.delegate = self
         tableViewModel.dataSource = self
+        viewModel.id = idBrand
+        
         
         viewModel.getModel { sucess in
             self.tableViewModel.reloadData()
+            
         }
         
     }
@@ -30,7 +35,7 @@ extension ModelViewController: UITableViewDelegate{
         if let screenAddMovie = UIStoryboard(name: "YearModel", bundle: nil).instantiateInitialViewController() as? YearModelViewController{
 
                     navigationController?.pushViewController(screenAddMovie, animated: true)
-            YearModelViewModel.idBrand = ModelViewModel.id
+//            YearModelViewModel.idBrand = ModelViewModel.id!
             YearModelViewModel.idModel = viewModel.getIdModel(index: indexPath.row)
 
                 }
