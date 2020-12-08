@@ -12,11 +12,16 @@ class YearModelViewController: UIViewController {
     @IBOutlet var tableViewYearModel: UITableView!
 
     var viewModel = YearModelViewModel()
+    var idBrand: String?
+    var idModel: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableViewYearModel.delegate = self
         tableViewYearModel.dataSource = self
+        
+        viewModel.idModel = idModel
+        viewModel.idBrand = idBrand
         
         
         viewModel.getYearModel { sucess in
@@ -29,17 +34,14 @@ class YearModelViewController: UIViewController {
 
 extension YearModelViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let screenAddMovie = UIStoryboard(name: "CarDetail", bundle: nil).instantiateInitialViewController() as? CarDetailViewController{
-
-                    navigationController?.pushViewController(screenAddMovie, animated: true)
-
-            CarDetailViewModel.idBrand = viewModel.getIdBrand()
-            CarDetailViewModel.idModel = YearModelViewModel.idModel
-            CarDetailViewModel.idCarYear = viewModel.getIdYear(index: indexPath.row)
+        if let screenCarDetail = UIStoryboard(name: "CarDetail", bundle: nil).instantiateInitialViewController() as? CarDetailViewController{
+            screenCarDetail.idModel = idModel
+            screenCarDetail.idBrand = idBrand
+            screenCarDetail.idCarYear = viewModel.getIdYear(index: indexPath.row)
             
+            navigationController?.pushViewController(screenCarDetail, animated: true)
             
-
-                }
+        }
     }
 }
 
