@@ -9,7 +9,7 @@ import Foundation
 
 class ModelViewModel{
     
-   static var id: String = "1"
+    var id: String?
     
     var apiManager = ApiManager()
     
@@ -17,11 +17,15 @@ class ModelViewModel{
     
     func getModel (onComplete: @escaping (Bool) -> Void)
     {
-        apiManager.loadDataModel(path:"carros/marcas/\(ModelViewModel.id)/modelos") { sucess in
-            self.arrayModel = self.apiManager.arrayDate
-            onComplete(true)
-            return
+        
+        if let id = id{
+            apiManager.loadDataModel(path:"carros/marcas/\(id)/modelos") { sucess in
+                self.arrayModel = self.apiManager.arrayDate
+                onComplete(true)
+                return
+            }
         }
+      
         
         onComplete(false)
         return

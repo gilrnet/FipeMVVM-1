@@ -1,27 +1,10 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+![GIFFIPE](https://user-images.githubusercontent.com/60993267/101428796-39e3eb00-38e0-11eb-8fa9-eb2d27e7cd8a.gif)
 
-# Egg Timer
-
-## Our Goal
-
-This module will be a mix of tutorials and challenges. Most importantly, we want you to get comfortable with looking up how to do something you've never done before. In certain places of this module, you’ll need to follow the 5 step process you learnt in the Xylophone module and use Google search, StackOverflow and Apple Documentation to make your code do what you want it to. But there are also other parts where we’ll take you step-by-step through new Swift programming concepts. 
-
-## What You'll Make
-
-You’ll be building a beautiful egg timer app to boil your eggs to perfection depending on how you prefer your eggs. 
-
-## What you will learn
-
-* Swift Collection types - Dictionaries
-* The Swift Timer API
-* Conditional statements - IF/ELSE
-* Conditional statements - Switch
-* Functions with outputs
-* How to use the ProgressView
+## Tabela FIPE(MVVM)
+#### Exercício para criar um app que consulta api alternativa da Fipe e mostra os detalhes de um determinado veículo. Usando arquitetura MVVM.
 
 
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
-
+* Primeiro listar as marcas: https://parallelum.com.br/fipe/api/v1/carros/marcas
+* Depois os modelos da marca selecionada: https://parallelum.com.br/fipe/api/v1/carros/marcas/21/modelos  
+* Quando selecionar um modelo, tem que escolher o ano: https://parallelum.com.br/fipe/api/v1/carros/marcas/21/modelos/437/anos
+* Quando escolher o ano, finalmente vai poder exibir as informações do veículo: https://parallelum.com.br/fipe/api/v1/carros/marcas/21/modelos/437/anos/1987-1

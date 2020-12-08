@@ -9,8 +9,8 @@ import Foundation
 
 class YearModelViewModel{
     
-    static var idBrand: String = "2"
-    static var idModel: String = "2"
+    var idBrand: String?
+     var idModel: String?
     
     var apiManager = ApiManager()
     
@@ -18,14 +18,19 @@ class YearModelViewModel{
     
     func getYearModel (onComplete: @escaping (Bool) -> Void)
     {
-        apiManager.loadData(path: "carros/marcas/\(YearModelViewModel.idBrand)/modelos/\(YearModelViewModel.idModel)/anos") { sucess in
-            self.arrayYearModel = self.apiManager.arrayDate
-            onComplete(true)
+        if let idbrand = idBrand, let idModel = idModel{
+            
+            apiManager.loadData(path: "carros/marcas/\(idbrand)/modelos/\(idModel)/anos") { sucess in
+                self.arrayYearModel = self.apiManager.arrayDate
+                onComplete(true)
+                return
+            }
+            
+            onComplete(false)
             return
+            
         }
-        
-        onComplete(false)
-        return
+       
     }
     
     func getArrayYearModel() -> [BaseClassAPI]{
@@ -36,15 +41,13 @@ class YearModelViewModel{
         
         return arrayYearModel[index].name
     }
-    
-   
-    
+
     func getIdYear(index: Int) -> String{
         return arrayYearModel[index].id
     }
     
     func getIdBrand() -> String{
-        return YearModelViewModel.idBrand
+        return idBrand!
     }
 }
     
