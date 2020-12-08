@@ -1,5 +1,7 @@
+![GIFFIPE](https://user-images.githubusercontent.com/60993267/101428796-39e3eb00-38e0-11eb-8fa9-eb2d27e7cd8a.gif)
+
 ## Tabela FIPE(MVVM)
-#### Exercício para criar um app que consulta api alternativa da Fipe e mostra os detalhes de um determinado veículo. Usando arquetetura MVVM.
+#### Exercício para criar um app que consulta api alternativa da Fipe e mostra os detalhes de um determinado veículo. Usando arquitetura MVVM.
 
 
 * Primeiro listar as marcas: https://parallelum.com.br/fipe/api/v1/carros/marcas
