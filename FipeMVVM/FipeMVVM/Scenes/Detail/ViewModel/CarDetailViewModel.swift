@@ -10,9 +10,9 @@ import Foundation
 
 class CarDetailViewModel {
     
-    static var idBrand: String = "1"
-    static var idModel: String = "1"
-    static var idCarYear: String = "1"
+    var idBrand: String?
+    var idModel: String?
+    var idCarYear: String?
     
     
     var apiManager = ApiManager()
@@ -21,15 +21,18 @@ class CarDetailViewModel {
     
     func getCarDetail (onComplete: @escaping (Bool) -> Void)
     {
-        apiManager.loadDataCarDetail (path: "/carros/marcas/\(CarDetailViewModel.idBrand)/modelos/\(CarDetailViewModel.idModel)/anos/\(CarDetailViewModel.idCarYear)") { sucess in
+        if let idbrand = idBrand , let idModel = idModel, let idCarYear = idCarYear{
+            apiManager.loadDataCarDetail (path: "/carros/marcas/\(idbrand)/modelos/\(idModel)/anos/\(idCarYear)") { sucess in
+                
+                self.carDetail = self.apiManager.carDetail
+                onComplete(true)
+                return
+            }
             
-            self.carDetail = self.apiManager.carDetail
-            onComplete(true)
+            onComplete(false)
             return
         }
         
-        onComplete(false)
-        return
     }
     
    
